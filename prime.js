@@ -1,11 +1,11 @@
-function prime(num){
-let count=0;
-for(let i=0;i<=num;i++
-if(num%i==0){
+function prime(number){
+let factors=0;
+for(let i=0;i<=number;i++
+if(number%i==0){
 count++;
 }
 }
-if(count==2){
+if(factors==2){
 return true;
 }return false;
 }
